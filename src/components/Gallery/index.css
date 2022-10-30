@@ -1,0 +1,39 @@
+/* Write your code here. */
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    color: #1e293b;
+}
+
+.name {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #64748b;
+    font-weight: bold;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin: 0;
+}
